@@ -30,7 +30,7 @@ namespace EsquemaPrueba.Controllers
 
         // GET: api/Personas/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Persona>> GetPersona(int id)
+        public async Task<ActionResult<IEnumerable<Persona>>> GetPersona(int id)
         {
             var persona = await personaInterface.GetPersona(id);
 

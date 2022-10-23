@@ -6,7 +6,7 @@ namespace EsquemaPrueba.Interfaces
     public interface PersonaInterface
     {
         Task<ActionResult<IEnumerable<Persona>>> GetPersonas();
-        Task<ActionResult<Persona>> GetPersona(int id);
+        Task<ActionResult<IEnumerable<Persona>>> GetPersona(int id);
         Task<int> PutPersona(int id, Persona persona);
         Task<int> PostPersona(Persona persona);
         Task<int> DeletePersona(int id);

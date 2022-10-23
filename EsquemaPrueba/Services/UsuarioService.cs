@@ -2,6 +2,7 @@
 using EsquemaPrueba.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace EsquemaPrueba.Services
 {
@@ -28,9 +29,19 @@ namespace EsquemaPrueba.Services
             }
         }
 
-        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuario(int id)
         {
-            var usuario = await _context.Usuarios.FindAsync(id);
+            //USO DE LINQ
+            var usuario = await (from _usuario in _context.Usuarios
+                           where _usuario.IdUsuario == id
+                           select new Usuario
+                           {
+                               IdUsuario = _usuario.IdUsuario,
+                               IdPersona = _usuario.IdPersona,
+                               Usuario1 = _usuario.Usuario1,
+                               Clave = _usuario.Clave,
+                               Estado = _usuario.Estado
+                           }).ToListAsync();
             return usuario;
         }
 

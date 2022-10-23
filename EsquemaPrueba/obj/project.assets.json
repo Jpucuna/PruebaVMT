@@ -10069,11 +10069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaPrueba\\EsquemaPrueba.csproj",
+      "projectUniqueName": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaVT\\EsquemaPrueba\\EsquemaPrueba.csproj",
       "projectName": "EsquemaPrueba",
-      "projectPath": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaPrueba\\EsquemaPrueba.csproj",
+      "projectPath": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaVT\\EsquemaPrueba\\EsquemaPrueba.csproj",
       "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaPrueba\\obj\\",
+      "outputPath": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaVT\\EsquemaPrueba\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G2JAHQ7rNMdoC4TgfD/37B1dt+klXdO+RNOzb0m9YCTkWzD3njSxj6LrVK/sCQRWQvB9H7mMd2GU2FkKazvprw==",
+  "dgSpecHash": "BYjk8BxTh1DTXp1JrdFMnJLI39zOcNJBGq2E871qLjulFrOQPAwDrO/y6DLaL0ldtwGcYm0QJRTDHwkixlRcrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaPrueba\\EsquemaPrueba.csproj",
+  "projectFilePath": "C:\\Users\\maxim\\Desktop\\PROYECTO KILLERJP\\ASP .NET\\BackEnd\\EsquemaVT\\EsquemaPrueba\\EsquemaPrueba.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

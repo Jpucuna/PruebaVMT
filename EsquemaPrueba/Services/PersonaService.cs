@@ -28,9 +28,20 @@ namespace EsquemaPrueba.Services
             }
         }
 
-        public async Task<ActionResult<Persona>> GetPersona(int id)
+        public async Task<ActionResult<IEnumerable<Persona>>> GetPersona(int id)
         {
-            var persona = await _context.Personas.FindAsync(id);
+            //USO DE LINQ
+            var persona = await (from _persona in _context.Personas
+                                 where _persona.IdPersona == id
+                                 select new Persona
+                                 {
+                                     IdPersona = _persona.IdPersona,
+                                     Nombres = _persona.Nombres,
+                                     Apellidos = _persona.Apellidos,
+                                     Correo = _persona.Correo,
+                                     Direccion = _persona.Direccion,
+                                     Estado = _persona.Estado
+                                 }).ToListAsync();
             return persona;
         }
 
